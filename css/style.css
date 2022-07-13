@@ -84,6 +84,7 @@ body{
 .header-link {
 	color: var(--primary-text-color);
 	text-decoration: none;
+	padding: 10px 10px;
 }
 .active-link{
 	color: var(--hover-color);
@@ -317,4 +318,8 @@ body{
 	letter-spacing: 0.03em;
 	text-align: left;
 	text-decoration: none;
+}
+.footer-link:hover,
+.footer-link:focus {
+	text-decoration: underline;
 }
