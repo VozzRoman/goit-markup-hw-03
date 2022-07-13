@@ -10,6 +10,16 @@
 	
 }
 
+h1, h2, h3, h4, h5, h6, p, ul {
+	margin: 0;
+}
+
+.container{
+	max-width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
 
 .padding-list{
 	list-style-type: none;
