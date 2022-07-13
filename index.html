@@ -19,18 +19,19 @@
 	<!-- Шапка страницы -->
 	<header class="header">
 		<div class="header-page container">
-				<a href="./index.html" class="logo"><span>Web</span>Studio</a>
-				<nav>
-					<ul class="header-list padding-list">
-						<li><a class="header-link active-link" href="#">Студия</a></li>
-						<li><a class="header-link" href="./portfolio.html">Портфолио</a></li>
-						<li><a class="header-link" href="#">Контакты</a></li>
-					</ul>
-					<ul class="header-list padding-list">
-						<li><a class="header-link link-color" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-						<li><a class="header-link link-color" href="tel:+380961111111">+38 096 111 11 11</a></li>
+				<a href="./index.html" class="logo" lang="en"><span>Web</span>Studio</a>
+				<nav class="header-nav">
+					<ul class="header-list-nav">
+						<li class="header-item-nav"><a class="header-link active-link" href="#">Студия</a></li>
+						<li class="header-item-nav"><a class="header-link" href="./portfolio.html">Портфолио</a></li>
+						<li class="header-item-nav"><a class="header-link" href="#">Контакты</a></li>
 					</ul>
 				</nav>
+				<ul class="header-list-contact">
+						<li class="header-item-contact"><a class="header-link link-color" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+						<li class="header-item-contact"><a class="header-link link-color" href="tel:+380961111111">+38 096 111 11 11</a></li>
+				</ul>
+				
 		</div>
 	
 	
@@ -41,26 +42,26 @@
 	<!-- Секция 1 -->
 	<section class="section-one">
 		<h1 class="main-title">Эффективные решения<br> для вашего бизнеса</h1>
-		<button class="button" type="button">Заказать услугу</button>
+		<button class="button button-active" type="button">Заказать услугу</button>
 	</section>
 	<!-- Секция 2 -->
-	<section class="section-tow">
+	<section class="section section-tow">
 		<div class="section-page-tow container">
 				<h2 class="section-title title-hide">Информационный список</h2>
-				<ul class="section-list padding-list">
-					<li>
+				<ul class="section-tow-list">
+					<li class="section-tow-column">
 						<h3 class="section-subtitle">Внимание к деталям</h3>
 						<p class="section-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
 					</li>
-					<li>
+					<li  class="section-tow-column">
 						<h3 class="section-subtitle">Пунктуальность</h3>
 						<p class="section-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
 					</li>
-					<li>
+					<li  class="section-tow-column">
 						<h3 class="section-subtitle">Планирование</h3>
 						<p class="section-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
 					</li>
-					<li>
+					<li  class="section-tow-column">
 						<h3 class="section-subtitle">Современные технологии</h3>
 						<p class="section-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
 					</li>
@@ -69,47 +70,57 @@
 	
 	</section>
 	<!-- Секция 3 -->
-	<section class="section-three">
+	<section class="section section-three">
 		<div class="section-page-three container">
 				<h2 class="section-title">Чем мы занимаемся</h2>
-				<ul class="padding-list">
-					<li><img src="./images/box1.jpg" width="370" alt="картинка с планшетом"></li>
-					<li><img src="./images/box2.jpg" width="370" alt="картинка с ноутбуком и телефоном"></li>
-					<li><img src="./images/box3.jpg" width="370" alt="картинка с изображением на планшете"></li>
+				<ul class="section-three-list">
+					<li class="section-three-column"><img src="./images/box1.jpg" width="370" alt="картинка с планшетом"></li>
+					<li class="section-three-column"><img src="./images/box2.jpg" width="370" alt="картинка с ноутбуком и телефоном"></li>
+					<li class="section-three-column"><img src="./images/box3.jpg" width="370" alt="картинка с изображением на планшете"></li>
 				</ul>
 		</div>
 	</section>
 	<!-- Секция 4 -->
-	<section class="section-foure">
+	<section class="section section-foure">
 		<div class="section-page-foure container">
 				<h2 class="section-title">Наша команда</h2>
-				<ul class="padding-list">
+				<ul class="section-foure-list">
 					<li>
-						<div>
+						<div class="section-foure-column">
 							<img src="./images/img.jpg" width="270" alt="фото Игорь Демьяненко">
-							<h3 class="team-title">Игорь Демьяненко</h3>
-							<p class="team-text">Product Designer</p>
+							<div class="section-foure-item">
+									<h3 class="team-title">Игорь Демьяненко</h3>
+									<p class="team-text" lang="en">Product Designer</p>
+							</div>
+						
 						</div>
 					</li>
 					<li>
-						<div>
+						<div class="section-foure-column">
 							<img src="./images/img2.jpg" width="270" alt="фото Ольга Репина">
-							<h3 class="team-title">Ольга Репина</h3>
-							<p class="team-text">Frontend Developer</p>
-						</div>
+							<div class="section-foure-item">
+								<h3 class="team-title">Ольга Репина</h3>
+								<p class="team-text" lang="en">Frontend Developer</p>
+								</div>
+							</div>
 					</li>
 					<li>
-						<div>
+						<div class="section-foure-column">
 							<img src="./images/img3.jpg" width="270" alt="фото Николай Тарасов">
-							<h3 class="team-title">Николай Тарасов</h3>
-							<p class="team-text">Marketing</p>
+							<div class="section-foure-item">
+								<h3 class="team-title">Николай Тарасов</h3>
+								<p class="team-text" lang="en">Marketing</p>
+							</div>
 						</div>
 					</li>
 					<li>
-						<div>
+						<div class="section-foure-column">
 							<img src="./images/img4.jpg" width="270" alt="фото Михаил Ермаков">
-							<h3 class="team-title">Михаил Ермаков</h3>
-							<p class="team-text">UI Designer</p>
+							<div class="section-foure-item">
+								<h3 class="team-title">Михаил Ермаков</h3>
+								<p class="team-text" lang="en">UI Designer</p>
+							</div>
+							
 						</div>
 					</li>
 				
@@ -120,19 +131,18 @@
 	</main>
 
 	<!-- Подвал страницы -->
-	<footer class="footer">
-		<div class="footer-page container">
-					<a class="logo footer-logo" href="./index.html" lang="en"><span>Web</span>Studio</a>
-					<p class="footer-text">г. Киев, пр-т Леси Украинки, 26</p>
-					<ul class="padding-list">
-						<a class="footer-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-						<a class="footer-link" href="tel:+380961111111">+38 096 111 11 11</a>
-					</ul>
-		</div>
-	
-				
-			
-	</footer>
+		<footer class="footer">
+			<div class="footer-page container">
+				<a class="logo footer-logo" href="./index.html" lang="en"><span>Web</span>Studio</a>
+				<ul class="footer-list">
+					<li class="footer-item">
+						<p class="footer-text">г. Киев, пр-т Леси Украинки, 26</p>
+					</li>
+					<li class="footer-item"><a class="footer-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+					<li class="footer-item"><a class="footer-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+				</ul>
+			</div>
+		</footer>
 
 </body>
 
