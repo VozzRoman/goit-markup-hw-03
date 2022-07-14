@@ -42,7 +42,22 @@ body{
 .header-page{
 	display: flex;
 	align-items: center;
-	min-height: 80px;
+	padding: 24px 0 25px 0;
+	background-color: var(--primary-background);
+}
+.logo {
+	text-decoration: none;
+	color: #000000;
+	font-family: 'Raleway';
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.2;
+	letter-spacing: 0.03em;
+	margin-right: 93px;
+}
+
+.logo span {
+	color: #2196F3;
 }
 .header-nav{
 	display: flex;
@@ -58,28 +73,13 @@ body{
 .header-list-contact{
 	display: flex;
 }
+
 .header-item-nav:not(:last-child){
 	margin: 0 50px 0 0;
 }
 .header-item-contact:not(:last-child){
 	margin: 0 50px 0 0;
 }
-
-.logo {
-	text-decoration: none;
-	color: #000000;
-	font-family: 'Raleway';
-	font-weight: 700;
-	font-size: 26px;
-	line-height: 1.2;
-	letter-spacing: 0.03em;
-	margin-right: 93px;
-}
-.logo span{
-	color: #2196F3;
-}
-
-
 
 .header-link {
 	color: var(--primary-text-color);
@@ -156,6 +156,7 @@ body{
 
 }
 /* section 2 */
+
 .title-hide {
 	display: none;
 }
@@ -182,6 +183,7 @@ body{
 	margin-bottom: 10px;
 }
 /* section 3 */
+
 .section-three-list{
 	display: flex;
 	margin: 0 -15px;
