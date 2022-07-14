@@ -113,6 +113,9 @@ body {
 .section:nth-child(4) {
   background-color: var(--section-bg-color-tow);
 }
+.section:nth-child(2){
+	padding-bottom: 0;
+}
 
 /* section 1 */
 .section-one {
@@ -318,7 +321,7 @@ body {
   margin-top: 20px;
   font-style: normal;
   color: var(--seconadary-text-color);
-  line-height: 1.71;
+  line-height: 1.7;
   letter-spacing: 0.03em;
 }
 .footer-item:not(:last-child) {
@@ -328,8 +331,6 @@ body {
 
 .footer-link {
   color: var(--footer-link-color);
-  line-height: 1.71;
-  letter-spacing: 0.03em;
   text-decoration: none;
 }
 .footer-link:hover,
