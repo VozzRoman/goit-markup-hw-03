@@ -187,10 +187,10 @@ body{
 	margin: 0 -15px;
 }
 .section-three-column{
+	flex: 0 1 33.33333%;
 	padding: 0 15px;
 }
 .section-three-column img {
-	max-width: 100%;
 	display: block;
 }
 .section-title {
@@ -218,6 +218,7 @@ body{
 	margin: 0 -15;
 }
 .section-foure-column{
+	flex: 0 1 25%;
 	padding: 0 15px;
 }
 .section-foure-item{
@@ -228,7 +229,6 @@ body{
 	border-radius: 0px 0px 4px 4px;
 }
 .section-foure-column img{
-	max-width: 100%;
 	display: block;
 }
 .team-text {
@@ -262,6 +262,7 @@ body{
 	margin: -15px;
 }
 .portfolio-cards-column{
+	flex: 0 1 33.3333%;
 	padding: 15px 15px;
 }
 .portfolio-cards-column img {
