@@ -267,6 +267,7 @@ body {
   display: flex;
 }
 .section-foure-column {
+	background-color: var(--primary-background);
   flex: 0 1 calc((100% - 90px)/4);
 }
 .section-foure-column:not(:last-child){
@@ -280,9 +281,6 @@ body {
 }
 .section-foure-item {
   padding: 30px 0;
-}
-.section-foure-column{
-	background-color: var(--primary-background);
 }
 
 .team-text {
