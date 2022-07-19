@@ -315,11 +315,10 @@ body {
 
 .portfolio-cards-column {
   flex: 0 1 calc((100% - 60px)/3);
-}
-.portfolio-cards-column{
-	margin-right: 30px;
+  margin-right: 30px;
 	margin-bottom: 30px;
 }
+
 .portfolio-cards-column:nth-child(3n){
 	margin-right: 0;
 }
